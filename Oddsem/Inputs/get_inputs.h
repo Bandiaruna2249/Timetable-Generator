@@ -3,13 +3,13 @@
 //Everything on heap
 
 void entercourselist(vector <Course*>* listofcourses){
-    listofcourses->pb(new Course("Maths","Chandrashekar",3,4,'A'));//sem and numperweek
+    listofcourses->pb(new Course("Maths","sparsha",3,2,'DS3'));//sem and numperweek
     /*
     vector <Course *> tempvect;
     tempvect=listofcourses[0];
     cout<<tempvect[0]->get_course_name()<<endl;
     */
-    listofcourses->pb(new Course("Data Structures","Rajeshwari",3,4,'A'));
+    listofcourses->pb(new Course("Data Structures","vinutha",3,4,'ds3'));
     /*
     vector <Course *> tempvect;
     tempvect=listofcourses[0];
